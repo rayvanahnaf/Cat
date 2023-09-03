@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #FFF200;
+    color:white;
     font-family: "Franklin";
     text-decoration: none;
     list-style-type: none;
@@ -23,7 +23,7 @@ body {
 
 /* navbaar */
 .nav-list {
-    background-color: #303481;
+    background-color: rgb(238, 224, 201);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -68,7 +68,7 @@ body {
 
 .navbar-button {
     font-size: 1em;
-    background-color: #8696FE;
+    background-color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -149,8 +149,8 @@ body {
     font-size: 3em;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #F0DE36;
-    text-shadow: 5px 2px 1px #303481;
+    color:black;
+    text-shadow: 5px 2px 1px whitesmoke;
 
 }
 
@@ -160,7 +160,7 @@ body {
 }
 
 .explore-button {
-    background-color: #303481;
+    background-color: rgb(150, 182, 197);
     border: none;
     border-radius: 12px;
     font-size: 1em;
@@ -172,12 +172,12 @@ body {
 
 .explore-button a {
     text-decoration: none;
-    color: #FFF200;
+    color:white;
 
 }
 
 .explore-button:hover {
-    background: #8696FE;
+    background: rgb(238, 224, 201);
 }
 
 .explore-button:hover a {
@@ -307,7 +307,7 @@ body {
 }
 
 .spacies {
-    color: #FFF200;
+    color: rgb(150, 182, 197);
     font-weight: bold;
     margin: 10px 0;
     text-align: center;
@@ -315,7 +315,7 @@ body {
 }
 
 .tipe {
-    color: #FFF200;
+    color:rgb(150, 182, 197);
     font-weight: bold;
     margin: 10px 10px 0;
     font-size: larger;
@@ -327,14 +327,14 @@ body {
     border: none;
     padding: 15px 80px;
     border-radius: 10px;
-    color: #F0DE36;
+    color:rgb(150, 182, 197);
     font-size: 1em;
     font-weight: bold;
     margin: 10px 20px 20px;
 }
 
 .card-button:hover {
-    background-color: #F5F5F5;
+    background-color:black;
     box-shadow: 0px 0px 15px grey;
     color: #303481;
 }
@@ -418,10 +418,10 @@ aside {
 
 /* footer */
 footer p {
-    color: #FFF200;
+    color: rgb(150, 182, 197)   ;
     text-align: center;
     padding: 30px 0;
-    background-color: #303481;
+    background-color:rgb(103, 93, 80);
 }
 
 .card {
@@ -472,7 +472,7 @@ footer p {
 .card__title {
     margin: 0;
     font-size: 24px;
-    color: #FFF200;
+    color: rgb(150, 182, 197);
     font-weight: 700;
 }
 
