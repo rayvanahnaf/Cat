@@ -23,7 +23,7 @@ body {
 
 /* navbaar */
 .nav-list {
-    background-color:rgb(164, 144, 124);
+    background-color: rgb(164, 144, 124);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -42,6 +42,7 @@ body {
     list-style-type: none;
     display: none;
     margin: 0 20px;
+    padding-right: 20px;
 }
 
 .navbar-link {
@@ -55,12 +56,10 @@ body {
 }
 
 .logo {
-
     cursor: pointer;
     margin-right: auto;
-    margin-left: 50px;
     list-style-type: none;
-
+margin-left: 0px;
 }
 
 .logo a {
@@ -111,9 +110,17 @@ body {
         margin-left: auto;
         display: flex;
         width: 25%;
+    
 
     }
+    .toggle{
+        margin-right: 50px;
+    }
 
+    .logo img{
+        width: 100px;
+        height: 70px;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -130,10 +137,9 @@ body {
         padding: 8px 15px;
     }
 
-    .logo{
-        width: 60px;
-        height: 70px;
-        margin-left: 0;
+    .logo img{
+height: 65px;
+        width: 90px;
     }
 }
 
@@ -265,7 +271,7 @@ body {
         width: 40%;
     }
 
-    
+
 }
 
 
