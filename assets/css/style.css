@@ -59,7 +59,7 @@ body {
     cursor: pointer;
     margin-right: auto;
     list-style-type: none;
-margin-left: 0px;
+    margin-left: 0px;
 }
 
 .logo a {
@@ -110,14 +110,15 @@ margin-left: 0px;
         margin-left: auto;
         display: flex;
         width: 25%;
-    
+
 
     }
-    .toggle{
+
+    .toggle {
         margin-right: 50px;
     }
 
-    .logo img{
+    .logo img {
         width: 100px;
         height: 70px;
     }
@@ -137,8 +138,8 @@ margin-left: 0px;
         padding: 8px 15px;
     }
 
-    .logo img{
-height: 65px;
+    .logo img {
+        height: 65px;
         width: 90px;
     }
 }
