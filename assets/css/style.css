@@ -142,6 +142,10 @@ body {
         height: 65px;
         width: 90px;
     }
+
+    .navbar-button{
+        width: 50px;
+    }
 }
 
 
