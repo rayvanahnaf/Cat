@@ -109,8 +109,7 @@ body {
         justify-content: center;
         margin-left: auto;
         display: flex;
-        width: 25%;
-
+       
 
     }
 
@@ -143,9 +142,6 @@ body {
         width: 90px;
     }
 
-    .navbar-button{
-        width: 50%;
-    }
 }
 
 
